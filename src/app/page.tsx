@@ -1,4 +1,5 @@
 import { ModeToggle } from '@/components/ui/mode-toggle'
+import { UserButton } from '@clerk/nextjs'
 import React from 'react'
 
 const Page = () => {
@@ -6,6 +7,7 @@ const Page = () => {
     <div>
       <div>Page</div>
       <ModeToggle/>
+      <UserButton/>
     </div>
   )
 }
